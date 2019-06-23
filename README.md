@@ -14,3 +14,5 @@ Using these files may damage your pi. Take precautions! By using these files you
 	- from what I understand this increases your swap file memory, add this to your `rc.local` file in `/etc/` so that it always starts on boot.
 - temperature.sh
 	- Shows the temperature of your pi's cpu continually
+## Starting Programs
+Use `./` as a prefix to start .sh files. For example. `./temperature.sh`
